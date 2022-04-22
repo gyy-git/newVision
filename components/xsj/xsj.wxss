@@ -1,0 +1,5 @@
+/* components/xsj/xsj.wxss */
+.box{
+ 
+    background:pink;
+}

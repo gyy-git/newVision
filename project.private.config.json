@@ -1,0 +1,30 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/ps/ps",
+                    "pathName": "pages/ps/ps",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/works/works",
+                    "pathName": "pages/works/works",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

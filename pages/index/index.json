@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "xsj":"/components/xsj/xsj",
+    "HdView":"/components/HdView/HdView",
+    "BottomView":"/components/BottomView/BottomView",
+    "PubTitle":"/components/PubTitle/PubTitle"
+  }
+}

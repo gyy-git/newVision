@@ -1,0 +1,32 @@
+/* .wknav{
+    white-space: nowrap; 
+    height: 80rpx;
+    border-top: 1rpx solid #efefef;
+    box-shadow:  0 10rpx 10rpx rgba(0,0,0,0.05);
+
+}
+.wknav .box{
+    display: inline-block;
+    width:150rpx;
+    line-height: 80rpx;
+    position: relative;
+    height: 80rpx;
+    text-align: center;
+    font-size: 30rpx;
+} */
+
+
+.wkNav{ height: 80rpx; box-shadow: 0 10rpx 10rpx rgba(0,0,0,0.05);border-top:1rpx solid #efefef; white-space: nowrap;}
+.wkNav .box{ display: inline-block; line-height: 80rpx; width:150rpx; text-align: center; font-size:30rpx; position: relative;}
+.wkNav .box.active{
+  color:'#c00'
+}
+.wkNav .box.active::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 5rpx;
+    width: 40rpx;
+    background-color: '#c00';
+
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "HdView":"/components/HdView/HdView",
+    "BottomView":"/components/BottomView/BottomView"
+  }
+}

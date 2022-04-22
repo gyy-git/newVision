@@ -1,0 +1,57 @@
+
+
+.banner{
+  width: 100%;
+  height: 295rpx;
+}
+.banner swiper{
+  height: 100%;
+  width: 100%;
+}
+.banner image{width: 100%;height: 295px;}
+/* flex-wrap: nowrap 表示不换行  以下是用弹性盒模型设置的 */
+/* .majorCon{display: flex; padding: 20rpx 0; flex-wrap: nowrap; width: 850rpx;}
+.major .box{text-align: center; width: 170rpx; }
+.major .box image{width: 100rpx; height: 100rpx; }
+.major .txt{font-size: 26rpx;} */
+
+/* 另一种样式实现 去掉 <view class="majorCon">*/
+/* white-space: nowrap; 不换行 */
+.major{white-space: nowrap; padding: 30rpx 0;} 
+.major .box{text-align: center; width: 170rpx; display: inline-block;}
+.major .box image{width: 100rpx; height: 100rpx; }
+.major .txt{font-size: 26rpx; margin-top: 8rpx;}
+
+/* 学生作品 */
+.works{
+  background: #f0f3f8; padding: 90rpx 0 70rpx;
+}
+.wkMain{
+  display: flex; 
+  flex-wrap:wrap; 
+  justify-content: space-between;
+}
+.wkMain .box{
+  width: 344rpx; 
+  height: 214rpx;
+  margin-bottom: 10rpx;
+   position: relative;
+  }
+.wkMain .pic{width: 100%; height: 100%;}
+.wkMain .ceng{width:100%; height: 100%; background:rgba(68, 45, 45, 0.5); position: absolute; top:0;left: 0;  color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0 20rpx; box-sizing: border-box; text-align: center;}
+.wkMain .ceng .tit{font-size: 34rpx;}
+.wkMain .ceng .line{width: 50rpx; height: 2rpx; background: #fff; margin: 10rpx 0 20rpx;}
+.wkMain .ceng .des{opacity: 0.6; text-transform: uppercase; font-size: 24rpx; letter-spacing: 5rpx;}
+
+/* 行业动态 */
+.dynamic{
+  padding: 90rpx 0 70rpx;
+}
+.dyItem{ display: flex; padding: 15rpx 0; border: 1px dashed #f4f4f4; justify-content: space-between;}
+.dyItem .pic{ width: 230rpx;height: 150rpx;}
+.dyItem .pic image{width: 100%; height: 100%;}
+.dyItem .txt{width: 440rpx; display: flex; flex-direction: column; justify-content: space-between;}
+.dyItem .txt .title{font-size: 34rpx;}
+.dyItem  .info{font-size: 20rpx; color: #888;}
+.dyItem  .info text{font-size: 22rpx; }
+
